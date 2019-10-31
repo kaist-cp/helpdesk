@@ -131,8 +131,8 @@ When you first come to the lab, please do the following instructions:
 ### First things to do
 
 - Use the following devices (**IMPORTANT: no password should be written here. It's a public repository.**):
-    + Wifi: `kaist-cp` at Rm. 4441, Bldg. E3-1, KAIST
-    + Printer: `192.168.0.10` in the WiFi network; AirPrint protocol
+    + WiFi: `kaist-cp` at Rm. 4441, Bldg. E3-1, KAIST
+    + Printer: `HP Color LaserJet Pro MFP M479fdw`; `192.168.0.10` in the WiFi network; AirPrint protocol
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
   1. Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
