@@ -1,17 +1,3 @@
-## Sometings to do
-
-- You had better install Coq with Opam: `opam install coq` (More detail information is [here](https://coq.inria.fr/opam-using.html))
-- Use Emacs, not CoqIDE:
-  - (in Ubuntu) `apt install emacs`
-  - (in Mac OS X) `brew install emacs`
-  - ...
-- **"Prof. Kang's `~/.emacs.d/init.el`"** is below.
-	- Just COPY & PASTE to your `~/.emacs.d/init.el`.
-	- And replace `'(coq-prog-name "/home/jeehoonkang/.opam/4.07.0/bin/coqtop")` with your correct path printed out by `which coqtop`.
-
-## Prof. Kang's `~/.emacs.d/init.el`
-
-```
 ;; Custom
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -361,17 +347,3 @@
       (with-current-buffer (find-file file)
         (ispell-buffer)))
     (message nil)))
-```
-
-## Useful key-bindings
-
-- `C-c C-RET` : process the text up to the current position of the point
-- `C-c C-n` :  process the text up to the next command
-- `C-c C-u` : undo processing
-- `C-c C-b` : process the rest of the buffer
-- `C-c C-c` : stop processing
-- `C-c C-a C-l` : "Locate" query
-- `C-c C-a C-p` : "Print" query
-- `C-c C-a C-a` : "SearchAbout" query
-
-You can learn more commands at [here](https://proofgeneral.github.io/doc/master/userman/index#Top)
