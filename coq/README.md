@@ -1,14 +1,14 @@
-## INSTALL
+## Install
 
 - Install Coq using OPAM: `opam install coq` (More detail information is [here](https://coq.inria.fr/opam-using.html))
 - Use Emacs, not CoqIDE:
-  - (in Ubuntu) `apt install emacs`
-  - (in Mac OS X) `brew install emacs`
-  - ...
+  * (in Ubuntu) `apt install emacs`
+  * (in Mac OS X) `brew install emacs`
+  * ...
 - Use **" @jeehoonkang 's `~/.emacs.d/init.el`"**.
-  - [init.el](./init.el)
-  - Just COPY & PASTE to your `~/.emacs.d/init.el`.
-  - And replace `'(coq-prog-name "/home/jeehoonkang/.opam/4.07.0/bin/coqtop")` with your correct path printed out by `which coqtop`.
+  * [init.el](./init.el)
+  * Just COPY & PASTE to your `~/.emacs.d/init.el`.
+  * And replace `'(coq-prog-name "/home/jeehoonkang/.opam/4.07.0/bin/coqtop")` with your correct path printed out by `which coqtop`.
 
 ## Useful key-bindings
 
@@ -21,4 +21,4 @@
 - `C-c C-a C-p` : "Print" query
 - `C-c C-a C-a` : "SearchAbout" query
 
-You can learn more commands at [here](https://proofgeneral.github.io/doc/master/userman/index#Top)
+You can learn more commands [here](https://proofgeneral.github.io/doc/master/userman/index#Top).
