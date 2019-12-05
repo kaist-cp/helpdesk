@@ -1,7 +1,7 @@
 ## Install
 
 - Install Coq using OPAM: `opam install coq` (More detail information is [here](https://coq.inria.fr/opam-using.html))
-- Use Emacs, not CoqIDE:
+- There are two choices to use Coq. One is Emacs and the other is [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html). I'll explain Emacs:
   * (in Ubuntu) `apt install emacs`
   * (in Mac OS X) `brew install emacs`
   * ...
