@@ -16,7 +16,7 @@ concurrent programming.
 - To study [Coq](https://coq.inria.fr/), we strongly recommend you to start with [Software
   Foundations](https://softwarefoundations.cis.upenn.edu/) Volume 1: Logical Foundations. You can
   clone [this mirror](https://github.com/kaist-cp/software-foundations/tree/master/lf). Don't skip
-  (too many) exercises---they are the essence of the book.
+  (too many) exercises---they are the essence of the book. You can learn how to install Coq and setup your IDE [here](coq/README.md).
 
 - To study concurrent programming, we strongly recommend you to take [KAIST SoC CS492A: Concurrent
   Programming](https://github.com/kaist-cp/cs492-concur).
