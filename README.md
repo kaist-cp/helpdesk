@@ -79,7 +79,7 @@ When you first come to the lab, please do the following instructions:
 - Send your email address and GitHub ID to jeehoon.kang@kaist.ac.kr.
 - Your GitHub ID will be invited to `kaist-cp` organization.
 - You'll get {firstname}.{lastname}@cp.kaist.ac.kr G Suite account.
-- You'll get a Mattermost account in [https://cp.kaist.ac.kr/mm](https://cp.kaist.ac.kr/mm).
+- You'll get a Mattermost account in [https://cp-service.kaist.ac.kr/mm](https://cp-service.kaist.ac.kr/mm).
 
 
 #### Email
@@ -108,10 +108,10 @@ When you first come to the lab, please do the following instructions:
 
 #### Mattermost
 
-- Instant messaging service at https://cp.kaist.ac.kr/mm.
+- Instant messaging service at https://cp-service.kaist.ac.kr/mm.
 - Try to reply promptly in work hours. (No need to reply in other times.)
 - At the beginning of each work day, briefly state what you'll do that day at [this
-  channel](https://cp.kaist.ac.kr/mm/cp/channels/one-line-a-day).
+  channel](https://cp-service.kaist.ac.kr/mm/cp/channels/one-line-a-day).
 
 
 #### Face-to-face meeting
