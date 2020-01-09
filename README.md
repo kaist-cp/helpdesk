@@ -131,25 +131,32 @@ When you first come to the lab, please do the following instructions:
 ### First things to do
 
 - Use the following devices (**IMPORTANT: no password should be written here. It's a public repository.**):
+
     + WiFi: `kaist-cp` at Rm. 4441, Bldg. E3-1, KAIST
+
     + Printer: `HP Color LaserJet Pro MFP M479fdw`; `10.12.255.2` in the WiFi network; AirPrint protocol
+
     + Server: `ssh -p10002 {G Suite id}@cp-service.kaist.ac.kr` (password: {G Suite password})
       (e.g. `ssh -p10002 jeehoon.kang@cp-service.kaist.ac.kr`)
 
-- Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
-  1. Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
-  2. Install dependent libraries and run a local server to test by following commands:
+    + Desktop: login with your G Suite account
+        * Configuring Hangul input method
+            -- Alt+F1 and search "Region & Language" > Input Sources > + > Korean > Korean (Hangul)
+            -- Alt+F1 and search "Region & Language" > Input Sources > English (US) > Remove
+            -- You can switch between Korean/English input method by pressing shift+space.
 
+- Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
+  - Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
+  - Install dependent libraries and run a local server to test by following commands:
         ```bash
         # Make sure Ruby is installed.
         $ bundle install
         $ bundle exec jekyll serve
         ```
-
-  3. Add your meta information(name, status, github ID, etc.) to `people.yml`.
-  4. Make a new file `{firstname}.{lastname}.md` under the directory `_people/`.
-  5. Write your concrete information on the `{firstname}.{lastname}.md`. I recommend you refer to `_people/jeehoon.kang.md`.
-  6. Make a commit, push it and PR.
+  + Add your meta information(name, status, github ID, etc.) to `people.yml`.
+  + Make a new file `{firstname}.{lastname}.md` under the directory `_people/`.
+  + Write your concrete information on the `{firstname}.{lastname}.md`. I recommend you refer to `_people/jeehoon.kang.md`.
+  + Make a commit, push it and PR.
 
 - Make sure you know how to use Git. FYI, [this tutorial](https://www.atlassian.com/git/tutorials) is a good introduction.
 
