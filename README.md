@@ -140,10 +140,15 @@ When you first come to the lab, please do the following instructions:
       (e.g. `ssh -p10002 jeehoon.kang@cp-service.kaist.ac.kr`)
 
     + Desktop: login with your G Suite account
+
         * Configuring Hangul input method
-            -- Alt+F1 and search "Region & Language" > Input Sources > + > Korean > Korean (Hangul)
-            -- Alt+F1 and search "Region & Language" > Input Sources > English (US) > Remove
-            -- You can switch between Korean/English input method by pressing shift+space.
+            1. Alt+F1 and search "Region & Language" > Input Sources > + > Korean > Korean (Hangul)
+            1. Alt+F1 and search "Region & Language" > Input Sources > English (US) > Remove
+            1. You can switch between Korean/English input method by pressing shift+space.
+
+        * If you want to install additional packages, make a PR to [this
+          repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the
+          PR is merged, run `/usr/bin/install-packages`.
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
   - Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
