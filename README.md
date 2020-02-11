@@ -136,8 +136,10 @@ When you first come to the lab, please do the following instructions:
 
     + Printer: `HP Color LaserJet Pro MFP M479fdw`; `10.12.255.2` in the WiFi network; AirPrint protocol
 
-    + Server: `ssh -p10002 {G Suite id}@cp-service.kaist.ac.kr` (password: {G Suite password})
-      (e.g. `ssh -p10002 jeehoon.kang@cp-service.kaist.ac.kr`)
+    + Server: `ssh -p<port> <g-suite-id>@cp-service.kaist.ac.kr`
+        * port: 10002 or 10004
+        * password: \<g-suite-password\>
+        * e.g. `ssh -p10002 jeehoon.kang@cp-service.kaist.ac.kr`
 
     + Desktop: login with your G Suite account
 
