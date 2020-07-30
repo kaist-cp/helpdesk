@@ -84,11 +84,25 @@ When you first come to the lab, please do the following instructions:
 
 #### Email
 
-- Use {firstname}.{lastname}@kaist.ac.kr email account for all work emails.
+- Use {firstname}.{lastname}@kaist.ac.kr email account for all work emails. (__not cp.kaist.ac.kr !__)
 - Forward all {firstname}.{lastname}@kaist.ac.kr emails to {firstname}.{lastname}@cp.kaist.ac.kr and
   check emails in [Gmail](https://www.gmail.com).
-- Configure the Gmail account to send from {firstname}.{lastname}@kaist.ac.kr.
-- Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email).
+- Configure the Gmail account to send from {firstname}.{lastname}@kaist.ac.kr.    
+__[Set up guide]__
+  - go to kaist e-mail system.
+  - go to settings. <br>
+  - enable __Smtp__. <br>
+  - go to g-mail.
+  - go to settings on the top right.
+  - click _See all settings_.<br>
+  - go to __Accounts__ tab.
+  - click _Add another email address_.
+  - Add {firstname}.{lastname}@kaist.ac.kr.
+  - Set {firstname}.{lastname}@kaist.ac.kr as default address.
+  - Set _Always reply from default address_.<br>
+  ![image](src/g-mail_settings_detail.jpg)
+
+- Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). (__important!__ do not markup e-mails.)
 - Try to reply within 12 hours.
 
 
