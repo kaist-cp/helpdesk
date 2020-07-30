@@ -100,7 +100,6 @@ __[Set up guide]__
   - Add {firstname}.{lastname}@kaist.ac.kr.
   - Set {firstname}.{lastname}@kaist.ac.kr as default address.
   - Set _Always reply from default address_.<br>
-  ![image](src/g-mail_settings_detail.jpg)
 
 - Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). (__important!__ do not markup e-mails.)
 - Try to reply within 12 hours.
