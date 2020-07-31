@@ -88,8 +88,6 @@ When you first come to the lab, please do the following instructions:
 - Forward all {firstname}.{lastname}@kaist.ac.kr emails to {firstname}.{lastname}@cp.kaist.ac.kr and
   check emails in [Gmail](https://www.gmail.com).
 - Configure the Gmail account to send from {firstname}.{lastname}@kaist.ac.kr.    
-
-##### [Set up guide]
   - Go to https://mail.kaist.ac.kr > Settings - enable **SMTP**.
   - Go to [Gmail](https://www.gmail.com) > Settings > Click **See all settings** > **Accounts** > Click **Add another email address** > Add {firstname}.{lastname}@kaist.ac.kr and set it as the default address > Set **Always reply from default address**
 
