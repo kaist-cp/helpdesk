@@ -147,9 +147,17 @@ When you first come to the lab, please do the following instructions:
     + Desktop: login with your G Suite account
 
         * Configuring Hangul input method
-            1. Alt+F1 and search "Region & Language" > Input Sources > + > Korean > Korean (Hangul)
-            1. Alt+F1 and search "Region & Language" > Input Sources > English (US) > Remove
-            1. You can switch between Korean/English input method by pressing shift+space.
+
+            * Using Ibus (Ubuntu default)
+                1. Alt+F1 and search "Region & Language" > Input Sources > + > Korean > Korean (Hangul)
+                1. Alt+F1 and search "Region & Language" > Input Sources > English (US) > Remove
+                1. You can switch between Korean/English input method by pressing shift+space.
+
+            * Using [nimf](https://github.com/hamonikr/nimf/)
+                1. In "Region & Language" > Input Sources, remove other input sources and leave English (US) only.
+                1. To check if nimf is installed, run `nimf-settings`. If it's not installed, run `/usr/bin/install-packages`.
+                1. Run `im-config -n nimf` and login again.
+                1. Configure nimf with `nimf-settings`. The default behavior is similar to Windows (uses "Hangul" key to change input method).
 
         * If you want to install additional packages, make a PR to [this
           repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the
@@ -177,3 +185,4 @@ When you first come to the lab, please do the following instructions:
 
 - Study [Rust](https://www.rust-lang.org/) or [Coq](https://coq.inria.fr/) depending on your
   research interest. See https://github.com/kaist-cp/helpdesk/#specialty for more details.
+
