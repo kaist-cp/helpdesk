@@ -148,7 +148,7 @@ When you first come to the lab, please do the following instructions:
 
         * Configuring Hangul input method
 
-            * Using Ibus (Ubuntu default)
+            * Using Ibus (Ubuntu default) (**NOT recommended**. Use nimf instead.)
                 1. Alt+F1 and search "Region & Language" > Input Sources > + > Korean > Korean (Hangul)
                 1. Alt+F1 and search "Region & Language" > Input Sources > English (US) > Remove
                 1. You can switch between Korean/English input method by pressing shift+space.
@@ -156,8 +156,10 @@ When you first come to the lab, please do the following instructions:
             * Using [nimf](https://github.com/hamonikr/nimf/)
                 1. In "Region & Language" > Input Sources, remove other input sources and leave English (US) only.
                 1. To check if nimf is installed, run `nimf-settings`. If it's not installed, run `/usr/bin/install-packages`.
-                1. Run `im-config -n nimf` and login again.
-                1. Configure nimf with `nimf-settings`. The default behavior is similar to Windows (uses "Hangul" key to change input method).
+                1. Run `im-config -n nimf` and reboot. Ensure that `nimf` process is running.
+                1. Configure nimf with `nimf-settings`.
+                   In "XKB options > Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
+                   In "Nimf > Hotkeys for rotating input method engines", add "Hangul".
 
         * If you want to install additional packages, make a PR to [this
           repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the
