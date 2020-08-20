@@ -139,12 +139,22 @@ When you first come to the lab, please do the following instructions:
 
     + Printer: `HP Color LaserJet Pro MFP M479fdw`; `10.12.255.2` in the WiFi network; AirPrint protocol
 
-    + Server: `ssh -p<port> <g-suite-id>@cp-service.kaist.ac.kr`
-        * port: 11001
-        * password: \<g-suite-password\>
-        * e.g. `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`
+    + Server: `ssh -p<port> <g-suite-id>@cp-service.kaist.ac.kr` (e.g., e.g. `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
+
+        * port: 11001, password: \<g-suite-password\>
+
+        * `/kaist-cp-home/<g-suite-id>` is the home directory, but it's network-mounted.
+          Run `sudo kaist-cp-refresh.sh`, then you'll have `/local-home/<g-suite-id>` in the local SSD.
+
+        * If you want to install additional packages, make a PR to [this
+          repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox-20.04), and after the
+          PR is merged, run `sudo kaist-cp-refresh.sh`.
 
     + Desktop: login with your G Suite account
+
+        * If you want to install additional packages, make a PR to [this
+          repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the
+          PR is merged, run `/usr/bin/install-packages`.
 
         * Configuring Hangul input method
 
@@ -160,10 +170,6 @@ When you first come to the lab, please do the following instructions:
                 1. Configure nimf with `nimf-settings`.
                    In "XKB options > Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
                    In "Nimf > Hotkeys for rotating input method engines", add "Hangul".
-
-        * If you want to install additional packages, make a PR to [this
-          repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the
-          PR is merged, run `/usr/bin/install-packages`.
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
   - Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
