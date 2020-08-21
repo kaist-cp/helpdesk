@@ -75,7 +75,7 @@ When you first come to the lab, please do the following instructions:
 
 - Create {firstname}.{lastname}@kaist.ac.kr email account.
     + You can add "additional account" in mail.kaist.ac.kr > Settings > My Account > Additional account.
-    + If it is already taken, add a number at the end of the id, e.g. {firstname}.{lastname}07@kaist.ac.kr
+    + If it is already taken, add a number at the end of the id, e.g., {firstname}.{lastname}07@kaist.ac.kr
 - Send your email address and GitHub ID to jeehoon.kang@kaist.ac.kr.
 - Your GitHub ID will be invited to `kaist-cp` organization.
 - You'll get {firstname}.{lastname}@cp.kaist.ac.kr G Suite account.
@@ -124,7 +124,7 @@ When you first come to the lab, please do the following instructions:
 - In the agenda, clearly state the purpose of meeting.  It can be, but not limited to: (1) reporting
   the progress, (2) asking questions/opinions, or (3) just chatting.
 
-- Try to be direct, top-to-bottom, and conclusion-first (e.g. not "A, so B, so C", but "C, because
+- Try to be direct, top-to-bottom, and conclusion-first (e.g., not "A, so B, so C", but "C, because
   B, because A").
 
 - If you have multiple things to discuss, enumerate them at the beginning of a meeting for better
@@ -139,7 +139,7 @@ When you first come to the lab, please do the following instructions:
 
     + Printer: `HP Color LaserJet Pro MFP M479fdw`; `10.12.255.2` in the WiFi network; AirPrint protocol
 
-    + Server: `ssh -p<port> <g-suite-id>@cp-service.kaist.ac.kr` (e.g. `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
+    + Server: `ssh -p<port> <g-suite-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
 
         * port: 11001, password: \<g-suite-password\>
 
@@ -178,7 +178,7 @@ When you first come to the lab, please do the following instructions:
     
     + (If needed) Lab VPN
 
-        * You can access the network inside the lab by running `ssh -p11000 <g-suite-id>@143.248.135.175` (e.g. `ssh -p11000 jeehoon.kang@143.248.135.175`)
+        * You can access the network inside the lab by running `ssh -p11000 <g-suite-id>@143.248.135.175` (e.g., `ssh -p11000 jeehoon.kang@143.248.135.175`)
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
   - Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
