@@ -139,7 +139,7 @@ When you first come to the lab, please do the following instructions:
 
     + Printer: `HP Color LaserJet Pro MFP M479fdw`; `10.12.255.2` in the WiFi network; AirPrint protocol
 
-    + Server: `ssh -p<port> <g-suite-id>@cp-service.kaist.ac.kr` (e.g., e.g. `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
+    + Server: `ssh -p<port> <g-suite-id>@cp-service.kaist.ac.kr` (e.g. `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
 
         * port: 11001, password: \<g-suite-password\>
 
@@ -175,6 +175,10 @@ When you first come to the lab, please do the following instructions:
             1. Download the ISO image of the virtual machine.
             1. Run `virt-manager`. If it's not installed, run `/usr/bin/install-packages`. If you get "Unable to connect to libvirt" error, reboot the desktop.
             1. To create a new virtual machine, right-click "QEMU/KVM" and click "NEW". Please note that you can choose your ISO image by clicking "Browse..." and "Browse Local" in "Step 2 of 5".
+    
+    + (If needed) Lab VPN
+
+        * You can access the network inside the lab by running `ssh -p11000 <g-suite-id>@143.248.135.175` (e.g. `ssh -p11000 jeehoon.kang@143.248.135.175`)
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
   - Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
