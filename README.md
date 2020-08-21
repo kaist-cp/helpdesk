@@ -170,6 +170,11 @@ When you first come to the lab, please do the following instructions:
                 1. Configure nimf with `nimf-settings`.
                    In "XKB options > Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
                    In "Nimf > Hotkeys for rotating input method engines", add "Hangul".
+        
+        * Create a virtual machine with [virt-manager](https://virt-manager.org/)
+            1. Download the ISO image of the virtual machine.
+            1. Run `virt-manager`. If it's not installed, run `/usr/bin/install-packages`. If you get "Unable to connect to libvirt" error, reboot the desktop.
+            1. To create a new virtual machine, right-click "QEMU/KVM" and click "NEW". Please note that you can choose your ISO image by clicking "Browse..." and "Browse Local" in "Step 2 of 5".
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
   - Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
