@@ -179,6 +179,8 @@ When you first come to the lab, please do the following instructions:
     + (If needed) Lab VPN
 
         * You can access the network inside the lab by running `ssh -p11000 <g-suite-id>@143.248.135.175` (e.g., `ssh -p11000 jeehoon.kang@143.248.135.175`)
+        * You can jump right into lab resources using `-J` ([`ProxyJump`](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump)) option. (e.g.,  `ssh -J jeehoon.kang@143.248.135.175:11000 user@target-internal-ip` )
+        * Since editors are not installed on the VPN instance, use `scp` to edit `.ssh/authorized_keys`.
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
   - Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
