@@ -130,7 +130,7 @@ When you first come to the lab, please do the following instructions:
 - If you have multiple things to discuss, enumerate them at the beginning of a meeting for better
   planning of the meetings.
   
-- For offline meetings at the professors office (E3-1 Room 4433), if you have files that are needed
+- For offline meetings at Jeehoon's office (Rm. 4433, Bldg. E3-1), if you have files that are needed
   during the meeting, email them to `kiosk@cp.kaist.ac.kr` before the meeting to reduce downtime.
 
 
