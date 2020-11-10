@@ -16,9 +16,10 @@ concurrent programming.
 - To study [Coq](https://coq.inria.fr/), we strongly recommend you to start with [Software
   Foundations](https://softwarefoundations.cis.upenn.edu/) Volume 1: Logical Foundations. You can
   clone [this mirror](https://github.com/kaist-cp/software-foundations/tree/master/lf). Don't skip
-  (too many) exercises---they are the essence of the book. You can learn how to install Coq and setup your IDE [here](coq/README.md).
+  (too many) exercises---they are the essence of the book. You can learn how to install Coq and
+  setup your IDE [here](coq/README.md).
 
-- To study concurrent programming, we strongly recommend you to take [KAIST SoC CS492A: Concurrent
+- To study concurrent programming, we strongly recommend you to take [KAIST CS492: Concurrent
   Programming](https://github.com/kaist-cp/cs492-concur).
 
 
@@ -41,27 +42,41 @@ questions you can answer, please do so. Your help will make the helpdesk much mo
 
 ## Advice for potential lab members
 
-- If you're interested in joining this lab, please **CONTACT `jeehoon.kang@kaist.ac.kr` NOW**.
-  Don't wait for some events to happen.  Again, contact NOW.  Otherwise, it may be possible that the
-  opportunity goes to the other students.
+- If you're interested in joining this lab as a graduate or undergraduate student, please **CONTACT
+  `jeehoon.kang@kaist.ac.kr` NOW**.  Don't wait for some events to happen.  Again, contact NOW.
+  Otherwise, it may be possible that the opportunity goes to the other students.
 
 - When you contact me, I'll usually reply to you with the following message:
 
-      안녕하세요, 강지훈입니다.
-
-      먼저 연구실에 관심 가져주셔서 감사합니다.
-
-      혹시 관련하여 30분 정도 온라인으로 미팅할 수 있으면 좋겠습니다.  Google calendar로 비는 시간에 요청해주시면 감사하겠습니다.  제 일정은 다음과 같습니다: https://cp.kaist.ac.kr/jeehoon.kang/#calendar
-
-      미팅에선 두가지를 중점적으로 제게 말씀해주시면 좋겠습니다.  (1) 지금까지 했던 작업중에 제일 기억에 남고 소개해주실만한 것을 하나 골라 자세히 말씀해주시길 바랍니다.  수업 프로젝트여도 좋고, 인턴한 경험도 좋고, 테크니컬한 것 아무거나 좋습니다.  (2) 앞으로 하고싶은 일에 대해 보다 자세히 말씀해주시길 부탁드립니다.
-
-      해주실 말씀을 미리 정리하여 미팅 전에 제게 이메일로 보내주세요.  이메일로 최대한 이야기 많이 나눈 후에 온라인으로 만나서 더 효율적으로 이야기할 수 있으면 좋겠습니다.
-
-      감사합니다.
-      강지훈 드림
+  > 안녕하세요, 강지훈입니다.
+  >
+  > 먼저 연구실에 관심 가져주셔서 감사합니다.
+  >
+  > 혹시 관련하여 30분 정도 온라인으로 미팅할 수 있으면 좋겠습니다.  Google calendar로 비는 시간에 요청해주시면 감사하겠습니다.  제 일정은 다음과 같습니다: https://cp.kaist.ac.kr/jeehoon.kang/#calendar
+  >
+  > 미팅에선 두가지를 중점적으로 제게 말씀해주시면 좋겠습니다.  (1) 지금까지 했던 작업중에 제일 기억에 남고 소개해주실만한 것을 하나 골라 자세히 말씀해주시길 바랍니다.  수업 프로젝트여도 좋고, 인턴한 경험도 좋고, 테크니컬한 것 아무거나 좋습니다.  (2) 앞으로 하고싶은 일에 대해 보다 자세히 말씀해주시길 부탁드립니다.
+  >
+  > 해주실 말씀을 미리 정리하여 미팅 전에 제게 이메일로 보내주세요.  이메일로 최대한 이야기 많이 나눈 후에 온라인으로 만나서 더 효율적으로 이야기할 수 있으면 좋겠습니다.
+  >
+  > 감사합니다.
+  > 강지훈 드림
 
 - You can skip the above procedure by directly sending me an email that says (1) what you did; (2)
   what you'll do; and (3) when you and I are both available.
+
+- I require all new graduate students to finish at least one of the followings before joining the
+  lab:
+    + Homework assignments of [KAIST CS420: Compiler Design](https://github.com/kaist-cp/cs420).
+      Lecture videos are uploaded to YouTube, and you can ask questions in the course repository's
+      issue tracker.
+    + Homework assignments of [KAIST CS492: Concurrent
+      Programming](https://github.com/kaist-cp/cs492-concur).  Lecture videos are uploaded to
+      YouTube, and you can ask questions in the course repository's issue tracker.
+    + [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volumes 1 and 2.  You can
+      ask questions in this repository's issue tracker.
+
+  So if you're interested in joining this lab as a graduate student, please start working on one of
+  them.
 
 
 ## Advice for lab members
@@ -92,6 +107,18 @@ a consequence, a researcher will suffer from:
 All communication (except for Mattermost and face-to-face meeting) is **asynchronous**: the receiver
 is not required to reply promptly. Mattermost chat in work hours is supposed to be synchronous: the
 receiver is requested to reply promptly.
+
+
+#### Minimum required communication with Jeehoon
+
+- Everyday, please leave about five sentences to the
+  [하루한줄](https://cp-service.kaist.ac.kr/mm/cp/channels/one-line-a-day) mattermost channel about
+  what you'll do for the day.
+- Everyday, please leave about five sentences to the
+  [하루한줄](https://cp-service.kaist.ac.kr/mm/cp/channels/one-line-a-day) mattermost channel about
+  what you've done for the day.
+- Schedule at least one meeting for at least 15 minutes a week with Jeehoon. It can be about
+  anything such as research, coursework, TA...
 
 
 #### Registration
@@ -126,7 +153,7 @@ When you first come to the lab, please do the following instructions:
 
 #### Calendar
 
-- Use {firstname}.{lastname}@cp.kaist.ac.kr account for calendar and other G Suite applications.
+- Use {firstname}.{lastname}@cp.kaist.ac.kr account for calendar and other Google Workspace applications.
 - If you want to have a meeting, just directly invite the others in [Google
   Calendar](https://calendar.google.com). In the invitation, write the purpose of the meeting.
 
@@ -183,11 +210,12 @@ When you first come to the lab, please do the following instructions:
           repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox-20.04), and after the
           PR is merged, run `sudo kaist-cp-refresh.sh`.
 
-    + Desktop: login with your G Suite account
+    + Desktop: We encourage you to install the latest Ubuntu.
+    <!-- + Desktop: login with your Google Workspace account. -->
 
-        * If you want to install additional packages, make a PR to [this
-          repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the
-          PR is merged, run `/usr/bin/install-packages`.
+        <!-- * If you want to install additional packages, make a PR to [this -->
+        <!--   repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the -->
+        <!--   PR is merged, run `/usr/bin/install-packages`. -->
 
         * Configuring Hangul input method
 
@@ -204,10 +232,10 @@ When you first come to the lab, please do the following instructions:
                    In "XKB options > Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
                    In "Nimf > Hotkeys for rotating input method engines", add "Hangul".
 
-        * (If needed) Create a virtual machine with [virt-manager](https://virt-manager.org/)
-            1. Download the ISO image of the virtual machine.
-            1. Run `virt-manager`. If it's not installed, run `/usr/bin/install-packages`. If you get "Unable to connect to libvirt" error, reboot the desktop.
-            1. To create a new virtual machine, right-click "QEMU/KVM" and click "NEW". Please note that you can choose your ISO image by clicking "Browse..." and "Browse Local" in "Step 2 of 5".
+        <!-- * (If needed) Create a virtual machine with [virt-manager](https://virt-manager.org/) -->
+        <!--     1. Download the ISO image of the virtual machine. -->
+        <!--     1. Run `virt-manager`. If it's not installed, run `/usr/bin/install-packages`. If you get "Unable to connect to libvirt" error, reboot the desktop. -->
+        <!--     1. To create a new virtual machine, right-click "QEMU/KVM" and click "NEW". Please note that you can choose your ISO image by clicking "Browse..." and "Browse Local" in "Step 2 of 5". -->
 
     + (If needed) Lab VPN
 
@@ -237,4 +265,3 @@ When you first come to the lab, please do the following instructions:
 
 - Study [Rust](https://www.rust-lang.org/) or [Coq](https://coq.inria.fr/) depending on your
   research interest. See https://github.com/kaist-cp/helpdesk/#specialty for more details.
-
