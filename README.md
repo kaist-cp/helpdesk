@@ -39,6 +39,31 @@ Your participation would be greatly appreciated. Please watch this repository, a
 questions you can answer, please do so. Your help will make the helpdesk much more scalable.
 
 
+## Advice for potential lab members
+
+- If you're interested in joining this lab, please **CONTACT `jeehoon.kang@kaist.ac.kr` NOW**.
+  Don't wait for some events to happen.  Again, contact NOW.  Otherwise, it may be possible that the
+  opportunity goes to the other students.
+
+- When you contact me, I'll usually reply to you with the following message:
+
+      안녕하세요, 강지훈입니다.
+
+      먼저 연구실에 관심 가져주셔서 감사합니다.
+
+      혹시 관련하여 30분 정도 온라인으로 미팅할 수 있으면 좋겠습니다.  Google calendar로 비는 시간에 요청해주시면 감사하겠습니다.  제 일정은 다음과 같습니다: https://cp.kaist.ac.kr/jeehoon.kang/#calendar
+
+      미팅에선 두가지를 중점적으로 제게 말씀해주시면 좋겠습니다.  (1) 지금까지 했던 작업중에 제일 기억에 남고 소개해주실만한 것을 하나 골라 자세히 말씀해주시길 바랍니다.  수업 프로젝트여도 좋고, 인턴한 경험도 좋고, 테크니컬한 것 아무거나 좋습니다.  (2) 앞으로 하고싶은 일에 대해 보다 자세히 말씀해주시길 부탁드립니다.
+
+      해주실 말씀을 미리 정리하여 미팅 전에 제게 이메일로 보내주세요.  이메일로 최대한 이야기 많이 나눈 후에 온라인으로 만나서 더 효율적으로 이야기할 수 있으면 좋겠습니다.
+
+      감사합니다.
+      강지훈 드림
+
+- You can skip the above procedure by directly sending me an email that says (1) what you did; (2)
+  what you'll do; and (3) when you and I are both available.
+
+
 ## Advice for lab members
 
 ### What is Research?
@@ -78,8 +103,12 @@ When you first come to the lab, please do the following instructions:
     + If it is already taken, add a number at the end of the id, e.g., {firstname}.{lastname}07@kaist.ac.kr
 - Send your email address and GitHub ID to jeehoon.kang@kaist.ac.kr.
 - Your GitHub ID will be invited to `kaist-cp` organization.
-- You'll get {firstname}.{lastname}@cp.kaist.ac.kr G Suite account.
-- You'll get a Mattermost account in [https://cp-service.kaist.ac.kr/mm](https://cp-service.kaist.ac.kr/mm).
+- You'll get {firstname}.{lastname}@cp.kaist.ac.kr Google Workspace account.
+- You'll get a Mattermost account in
+  [https://cp-service.kaist.ac.kr/mm](https://cp-service.kaist.ac.kr/mm). Click "Sign in with:
+  GitLab", and input your Google Workspace username and password.
+- Make sure you finish read this document, and send an email that says you did so to
+  `jeehoon.kang@kaist.ac.kr`.
 
 
 #### Email
@@ -87,9 +116,9 @@ When you first come to the lab, please do the following instructions:
 - Use {firstname}.{lastname}@kaist.ac.kr email account for all work emails. (**not cp.kaist.ac.kr !**)
 - Forward all {firstname}.{lastname}@kaist.ac.kr emails to {firstname}.{lastname}@cp.kaist.ac.kr and
   check emails in [Gmail](https://www.gmail.com).
-- Configure the Gmail account to send from {firstname}.{lastname}@kaist.ac.kr.    
-  - Go to https://mail.kaist.ac.kr > Settings - enable **SMTP**.
-  - Go to [Gmail](https://www.gmail.com) > Settings > Click **See all settings** > **Accounts** > Click **Add another email address** > Add {firstname}.{lastname}@kaist.ac.kr and set it as the default address > Set **Always reply from default address**
+- Configure the Gmail account to send from {firstname}.{lastname}@kaist.ac.kr.
+    + Go to https://mail.kaist.ac.kr > Settings - enable **SMTP**.
+    + Go to [Gmail](https://www.gmail.com) > Settings > Click **See all settings** > **Accounts** > Click **Add another email address** > Add {firstname}.{lastname}@kaist.ac.kr and set it as the default address > Set **Always reply from default address**
 
 - Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). (__important!__ do not markup emails.)
 - Try to reply within 12 hours.
@@ -119,7 +148,7 @@ When you first come to the lab, please do the following instructions:
 
 #### Face-to-face meeting
 
-- Before asking for a meeting, write down a short meeting agenda and share it.
+- Before asking for a meeting, write down a meeting agenda and share it.
 
 - In the agenda, clearly state the purpose of meeting.  It can be, but not limited to: (1) reporting
   the progress, (2) asking questions/opinions, or (3) just chatting.
@@ -129,9 +158,10 @@ When you first come to the lab, please do the following instructions:
 
 - If you have multiple things to discuss, enumerate them at the beginning of a meeting for better
   planning of the meetings.
-  
+
 - For offline meetings at Jeehoon's office (Rm. 4433, Bldg. E3-1), if you have files that are needed
-  during the meeting, email them to `kiosk@cp.kaist.ac.kr` before the meeting to reduce downtime.
+  during the meeting, share them with both `jeehoon.kang@cp.kaist.ac.kr` and `kiosk@cp.kaist.ac.kr`
+  before the meeting.
 
 
 ### First things to do
@@ -173,12 +203,12 @@ When you first come to the lab, please do the following instructions:
                 1. Configure nimf with `nimf-settings`.
                    In "XKB options > Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
                    In "Nimf > Hotkeys for rotating input method engines", add "Hangul".
-        
+
         * (If needed) Create a virtual machine with [virt-manager](https://virt-manager.org/)
             1. Download the ISO image of the virtual machine.
             1. Run `virt-manager`. If it's not installed, run `/usr/bin/install-packages`. If you get "Unable to connect to libvirt" error, reboot the desktop.
             1. To create a new virtual machine, right-click "QEMU/KVM" and click "NEW". Please note that you can choose your ISO image by clicking "Browse..." and "Browse Local" in "Step 2 of 5".
-    
+
     + (If needed) Lab VPN
 
         * You can access the network inside the lab by running `ssh -p11000 <g-suite-id>@cp-lab.kaist.ac.kr` (e.g., `ssh -p11000 jeehoon.kang@cp-lab.kaist.ac.kr`)
