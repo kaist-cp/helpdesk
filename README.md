@@ -193,11 +193,11 @@ When you first come to the lab, please do the following instructions:
   
 #### After meeting
 
-- When every meeting is over, organize action items and pin it on mattermost(team channel or DM).
+- When every meeting is over, organize action items and pin it on mattermost (Team channels or DM).
 
 - Guideline for organizing action items.
 
-    + Title: Date(MM/DD/YYYY) Name(or team) Action items
+    + Title: Date(MM/DD/YYYY) Name(or team) Action items.
         
         * Action item 1
         
