@@ -214,8 +214,7 @@ When you first come to the lab, please do the following instructions:
         * ~~에 대해 정리하여 공유하겠습니다.
         
         * issue #124 검토하겠습니다.
-    
-    
+
 
 ### First things to do
 
