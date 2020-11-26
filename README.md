@@ -207,7 +207,7 @@ When you first come to the lab, please do the following instructions:
 
 - Example.
 
-    + 11/25/2020 김시원(rv6) Action Items.
+    + 11/25/2020 김시원(rv6) Action tems.
 
         * pr #131 적정 단계에서 끊어서 마무리하겠습니다.
         
