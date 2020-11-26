@@ -189,7 +189,33 @@ When you first come to the lab, please do the following instructions:
 - For offline meetings at Jeehoon's office (Rm. 4433, Bldg. E3-1), if you have files that are needed
   during the meeting, share them with both `jeehoon.kang@cp.kaist.ac.kr` and `kiosk@cp.kaist.ac.kr`
   before the meeting.
+  
+  
+#### After meeting
 
+- When every meeting is over, organize action items and pin it on mattermost(team channel or DM).
+
+- Guideline for organizing action items.
+
+    + Title: Date(MM/DD/YYYY) Name(or team) Action items
+        
+        * Action item 1
+        
+        * Action item 2
+        
+        * ... and so on.
+
+- Example.
+
+    + 11/25/2020 김시원(rv6) Action Items.
+
+        * pr #131 적정 단계에서 끊어서 마무리하겠습니다.
+        
+        * ~~에 대해 정리하여 공유하겠습니다.
+        
+        * issue #124 검토하겠습니다.
+    
+    
 
 ### First things to do
 
