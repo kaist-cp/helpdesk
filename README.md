@@ -226,7 +226,7 @@ When you first come to the lab, please do the following instructions:
 
     + Server: `ssh -p<port> <g-suite-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
 
-        * port: 11001, password: \<g-suite-password\>
+        * port: 11001, 11005, password: \<g-suite-password\>
 
         * `/kaist-cp-home/<g-suite-id>` is the home directory, but it's network-mounted.
           Run `sudo kaist-cp-refresh.sh`, then you'll have `/local-home/<g-suite-id>` in the local SSD.
