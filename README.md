@@ -189,8 +189,8 @@ When you first come to the lab, please do the following instructions:
 - For offline meetings at Jeehoon's office (Rm. 4433, Bldg. E3-1), if you have files that are needed
   during the meeting, share them with both `jeehoon.kang@cp.kaist.ac.kr` and `kiosk@cp.kaist.ac.kr`
   before the meeting.
-  
-  
+
+
 #### After meeting
 
 - When every meeting is over, organize action items and pin it on mattermost (Team channels or DM).
@@ -198,11 +198,11 @@ When you first come to the lab, please do the following instructions:
 - Guidelines for organizing action items.
 
     + Title: Date(MM/DD/YYYY) Name(or team) Action items.
-        
+
         * Action item 1
-        
+
         * Action item 2
-        
+
         * ... and so on.
 
 - Example.
@@ -210,9 +210,9 @@ When you first come to the lab, please do the following instructions:
     + 11/25/2020 김시원(rv6) Action items.
 
         * pr #131 적정 단계에서 끊어서 마무리하겠습니다.
-        
-        * ~~에 대해 정리하여 공유하겠습니다.
-        
+
+        * XX에 대해 정리하여 공유하겠습니다.
+
         * issue #124 검토하겠습니다.
 
 
@@ -236,11 +236,6 @@ When you first come to the lab, please do the following instructions:
           PR is merged, run `sudo kaist-cp-refresh.sh`.
 
     + Desktop: We encourage you to install the latest Ubuntu.
-    <!-- + Desktop: login with your Google Workspace account. -->
-
-        <!-- * If you want to install additional packages, make a PR to [this -->
-        <!--   repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the -->
-        <!--   PR is merged, run `/usr/bin/install-packages`. -->
 
         * Configuring Hangul input method
 
@@ -256,17 +251,26 @@ When you first come to the lab, please do the following instructions:
                 1. Configure nimf with `nimf-settings`.
                    In "XKB options > Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
                    In "Nimf > Hotkeys for rotating input method engines", add "Hangul".
-
-        <!-- * (If needed) Create a virtual machine with [virt-manager](https://virt-manager.org/) -->
-        <!--     1. Download the ISO image of the virtual machine. -->
-        <!--     1. Run `virt-manager`. If it's not installed, run `/usr/bin/install-packages`. If you get "Unable to connect to libvirt" error, reboot the desktop. -->
-        <!--     1. To create a new virtual machine, right-click "QEMU/KVM" and click "NEW". Please note that you can choose your ISO image by clicking "Browse..." and "Browse Local" in "Step 2 of 5". -->
-
     + (If needed) Lab VPN
 
         * You can access the network inside the lab by running `ssh -p11000 <g-suite-id>@cp-lab.kaist.ac.kr` (e.g., `ssh -p11000 jeehoon.kang@cp-lab.kaist.ac.kr`)
         * You can jump right into lab resources using `-J` ([`ProxyJump`](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump)) option. (e.g.,  `ssh -J jeehoon.kang@cp-lab.kaist.ac.kr:11000 user@target-internal-ip` )
         * Since editors are not installed on the VPN instance, use `scp` to edit `.ssh/authorized_keys`. (e.g., `scp -P11000 ~/.ssh/authorized_keys jeehoon.kang@cp-lab.kaist.ac.kr:~/.ssh`)
+
+<!--
+    + Desktop: login with your Google Workspace account.
+
+        * If you want to install additional packages, make a PR to [this
+          repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the
+          PR is merged, run `/usr/bin/install-packages`.
+-->
+<!--
+        * (If needed) Create a virtual machine with [virt-manager](https://virt-manager.org/)
+            1. Download the ISO image of the virtual machine.
+            1. Run `virt-manager`. If it's not installed, run `/usr/bin/install-packages`. If you get "Unable to connect to libvirt" error, reboot the desktop.
+            1. To create a new virtual machine, right-click "QEMU/KVM" and click "NEW". Please note that you can choose your ISO image by clicking "Browse..." and "Browse Local" in "Step 2 of 5".
+-->
+
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
   - Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
