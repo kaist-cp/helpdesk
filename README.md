@@ -197,7 +197,7 @@ When you first come to the lab, please do the following instructions:
 
 - Guidelines for organizing action items.
 
-    + Title: Date(MM/DD/YYYY) Name(or team) Action items.
+    + Title: Date(YYYY-MM-DD) Name(or team) Action items.
 
         * Action item 1
 
@@ -207,7 +207,7 @@ When you first come to the lab, please do the following instructions:
 
 - Example.
 
-    + 11/25/2020 김시원(rv6) Action items.
+    + 2020-11-25 김시원(rv6) Action items.
 
         * pr #131 적정 단계에서 끊어서 마무리하겠습니다.
 
