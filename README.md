@@ -216,6 +216,15 @@ When you first come to the lab, please do the following instructions:
         * issue #124 검토하겠습니다.
 
 
+#### Tips for productive discussion
+
+- If there are some points that you do not understand clearly during the discussion, ask as soon as possible.
+
+- Even if some points don't seem important to you, it is worth documenting it.
+
+- If you receive a feedback, address it or give a counterargument against it. Make sure that no feedback gets ignored.
+
+
 ### First things to do
 
 - Use the following devices (**IMPORTANT: no password should be written here. It's a public repository.**):
