@@ -161,6 +161,7 @@ When you first come to the lab, please do the following instructions:
 #### GitHub
 
 - All work should be done in the [`kaist-cp` organization](https://github.com/kaist-cp).
+- Please write your name in your public profile (Settings > Profile > Name).
 - If you want to create a new repository, ask Jeehoon.
 - Get email notification for mentions and issue/PR comments.
 
