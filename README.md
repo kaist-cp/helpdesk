@@ -112,10 +112,10 @@ receiver is requested to reply promptly.
 #### Minimum required communication with Jeehoon
 
 - Everyday, please leave about five sentences to the
-  [하루한줄](https://cp-service.kaist.ac.kr/mm/cp/channels/one-line-a-day) mattermost channel about
+  [하루한줄](https://cp-chat.kaist.ac.kr/cp/channels/one-line-a-day) mattermost channel about
   what you'll do for the day.
 - Everyday, please leave about five sentences to the
-  [하루한줄](https://cp-service.kaist.ac.kr/mm/cp/channels/one-line-a-day) mattermost channel about
+  [하루한줄](https://cp-chat.kaist.ac.kr/cp/channels/one-line-a-day) mattermost channel about
   what you've done for the day.
 - Schedule at least one meeting for at least 15 minutes a week with Jeehoon. It can be about
   anything such as research, coursework, TA...
