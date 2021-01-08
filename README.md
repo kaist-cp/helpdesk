@@ -104,19 +104,17 @@ a consequence, a researcher will suffer from:
 
 ### Communication
 
-All communication (except for Mattermost and face-to-face meeting) is **asynchronous**: the receiver
-is not required to reply promptly. Mattermost chat in work hours is supposed to be synchronous: the
+All communication (except for Zulip and face-to-face meeting) is **asynchronous**: the receiver
+is not required to reply promptly. Zulip chat in work hours is supposed to be synchronous: the
 receiver is requested to reply promptly.
 
 
 #### Minimum required communication with Jeehoon
 
-- Everyday, please leave about five sentences to the
-  [하루한줄](https://cp-chat.kaist.ac.kr/cp/channels/one-line-a-day) mattermost channel about
-  what you'll do for the day.
-- Everyday, please leave about five sentences to the
-  [하루한줄](https://cp-chat.kaist.ac.kr/cp/channels/one-line-a-day) mattermost channel about
-  what you've done for the day.
+- At 10am and 3pm everyday, please leave about five sentences to the
+  [daily log](https://gg.kaist.ac.kr/#narrow/stream/16-daily-log) Zulip channel about
+  what you'll do and what you've done for the day.
+- We strongly prefer asynchronous communication. Don't wait for meetings. Send your message ASAP.
 - Schedule at least one meeting for at least 15 minutes a week with Jeehoon. It can be about
   anything such as research, coursework, TA...
 
@@ -131,9 +129,8 @@ When you first come to the lab, please do the following instructions:
 - Send your email address and GitHub ID to jeehoon.kang@kaist.ac.kr.
 - Your GitHub ID will be invited to `kaist-cp` organization.
 - You'll get {firstname}.{lastname}@cp.kaist.ac.kr Google Workspace account.
-- You'll get a Mattermost account in
-  [https://cp-chat.kaist.ac.kr](https://cp-chat.kaist.ac.kr). Click "Sign in with:
-  GitLab", and input your Google Workspace username and password.
+- You'll get a Zulip account in
+  [https://gg.kaist.ac.kr](https://gg.kaist.ac.kr). Log in with your Google Workspace account.
 - Make sure you finish read this document, and send an email that says you did so to
   `jeehoon.kang@kaist.ac.kr`.
 
@@ -166,12 +163,11 @@ When you first come to the lab, please do the following instructions:
 - Get email notification for mentions and issue/PR comments.
 
 
-#### Mattermost
+#### Zulip
 
-- Instant messaging service at https://cp-chat.kaist.ac.kr.
-- Try to reply promptly in work hours. (No need to reply in other times.)
-- At the beginning of each work day, briefly state what you'll do that day at [this
-  channel](https://cp-chat.kaist.ac.kr/cp/channels/one-line-a-day).
+- Instant messaging service at https://gg.kaist.ac.kr.
+- Try to reply promptly (at most by 15 minutes) in work hours. (No need to reply in other times.)
+- At the beginning of each work day, briefly state what you'll do that day at the [daily log](https://gg.kaist.ac.kr/#narrow/stream/16-daily-log).
 
 
 #### Face-to-face meeting
@@ -194,7 +190,7 @@ When you first come to the lab, please do the following instructions:
 
 #### After meeting
 
-- When every meeting is over, organize action items and pin it on mattermost (Team channels or DM).
+- When every meeting is over, write action items in the corresponding Zulip topics (Team channels or DM).
 
 - Guidelines for organizing action items.
 
@@ -234,12 +230,12 @@ When you first come to the lab, please do the following instructions:
 
     + Printer: `HP Color LaserJet Pro MFP M479fdw`; `10.12.255.2` in the WiFi network; AirPrint protocol
 
-    + Server: `ssh -p<port> <g-suite-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
+    + Server: `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
 
-        * port: 11001, 11005, password: \<g-suite-password\>
+        * port: 11001, 11005, password: \<google-workspace-password\>
 
-        * `/kaist-cp-home/<g-suite-id>` is the home directory, but it's network-mounted.
-          Run `sudo kaist-cp-refresh.sh`, then you'll have `/local-home/<g-suite-id>` in the local SSD.
+        * `/kaist-cp-home/<google-workspace-id>` is the home directory, but it's network-mounted.
+          Run `sudo kaist-cp-refresh.sh`, then you'll have `/local-home/<google-workspace-id>` in the local SSD.
 
         * If you want to install additional packages, make a PR to [this
           repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox-20.04), and after the
@@ -263,7 +259,7 @@ When you first come to the lab, please do the following instructions:
                    In "Nimf > Hotkeys for rotating input method engines", add "Hangul".
     + (If needed) Lab VPN
 
-        * You can access the network inside the lab by running `ssh -p11000 <g-suite-id>@cp-lab.kaist.ac.kr` (e.g., `ssh -p11000 jeehoon.kang@cp-lab.kaist.ac.kr`)
+        * You can access the network inside the lab by running `ssh -p11000 <google-workspace-id>@cp-lab.kaist.ac.kr` (e.g., `ssh -p11000 jeehoon.kang@cp-lab.kaist.ac.kr`)
         * You can jump right into lab resources using `-J` ([`ProxyJump`](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump)) option. (e.g.,  `ssh -J jeehoon.kang@cp-lab.kaist.ac.kr:11000 user@target-internal-ip` )
         * Since editors are not installed on the VPN instance, use `scp` to edit `.ssh/authorized_keys`. (e.g., `scp -P11000 ~/.ssh/authorized_keys jeehoon.kang@cp-lab.kaist.ac.kr:~/.ssh`)
 
