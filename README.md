@@ -192,7 +192,6 @@ When you first come to the lab, please do the following instructions:
 
 - When every meeting is over, write action items in the corresponding Zulip topics (Team streams or DM).
 
-
 - Guidelines for organizing action items.
 
     + Title: Date(YYYY-MM-DD) Name(or team) Action items.
