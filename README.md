@@ -104,18 +104,18 @@ a consequence, a researcher will suffer from:
 
 ### Communication
 
-All communication (except for Mattermost and face-to-face meeting) is **asynchronous**: the receiver
-is not required to reply promptly. Mattermost chat in work hours is supposed to be synchronous: the
+All communication (except for Zulip and face-to-face meeting) is **asynchronous**: the receiver
+is not required to reply promptly. Zulip chat in work hours is supposed to be synchronous: the
 receiver is requested to reply promptly.
 
 
 #### Minimum required communication with Jeehoon
 
 - Everyday, please leave about five sentences to the
-  [하루한줄](https://cp-chat.kaist.ac.kr/cp/channels/one-line-a-day) mattermost channel about
+  [#daily log](https://gg.kaist.ac.kr/#narrow/stream/16-daily-log) Zulip stream about
   what you'll do for the day.
 - Everyday, please leave about five sentences to the
-  [하루한줄](https://cp-chat.kaist.ac.kr/cp/channels/one-line-a-day) mattermost channel about
+  [#daily log](https://gg.kaist.ac.kr/#narrow/stream/16-daily-log) Zulip stream about
   what you've done for the day.
 - Schedule at least one meeting for at least 15 minutes a week with Jeehoon. It can be about
   anything such as research, coursework, TA...
@@ -131,9 +131,9 @@ When you first come to the lab, please do the following instructions:
 - Send your email address and GitHub ID to jeehoon.kang@kaist.ac.kr.
 - Your GitHub ID will be invited to `kaist-cp` organization.
 - You'll get {firstname}.{lastname}@cp.kaist.ac.kr Google Workspace account.
-- You'll get a Mattermost account in
-  [https://cp-chat.kaist.ac.kr](https://cp-chat.kaist.ac.kr). Click "Sign in with:
-  GitLab", and input your Google Workspace username and password.
+- You'll get a Zulip account in
+  [https://gg.kaist.ac.kr](https://gg.kaist.ac.kr). Click "Log in with
+  Google", and input your Google Workspace username and password.
 - Make sure you finish read this document, and send an email that says you did so to
   `jeehoon.kang@kaist.ac.kr`.
 
@@ -166,12 +166,12 @@ When you first come to the lab, please do the following instructions:
 - Get email notification for mentions and issue/PR comments.
 
 
-#### Mattermost
+#### Zulip
 
-- Instant messaging service at https://cp-chat.kaist.ac.kr.
+- Instant messaging service at https://gg.kaist.ac.kr.
 - Try to reply promptly in work hours. (No need to reply in other times.)
 - At the beginning of each work day, briefly state what you'll do that day at [this
-  channel](https://cp-chat.kaist.ac.kr/cp/channels/one-line-a-day).
+  stream](https://gg.kaist.ac.kr/#narrow/stream/16-daily-log).
 
 
 #### Face-to-face meeting
@@ -194,7 +194,7 @@ When you first come to the lab, please do the following instructions:
 
 #### After meeting
 
-- When every meeting is over, organize action items and pin it on mattermost (Team channels or DM).
+- When every meeting is over, organize action items and pin it on Zulip (Team streams or DM).
 
 - Guidelines for organizing action items.
 
