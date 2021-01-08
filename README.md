@@ -112,7 +112,7 @@ receiver is requested to reply promptly.
 #### Minimum required communication with Jeehoon
 
 - At 10am and 3pm everyday, please leave about five sentences to the
-  [daily log](https://gg.kaist.ac.kr/#narrow/stream/16-daily-log) Zulip channel about
+  [daily log](https://gg.kaist.ac.kr/#narrow/stream/16-daily-log) Zulip stream about
   what you'll do and what you've done for the day.
 - We strongly prefer asynchronous communication. Don't wait for meetings. Send your message ASAP.
 - Schedule at least one meeting for at least 15 minutes a week with Jeehoon. It can be about
@@ -137,14 +137,14 @@ When you first come to the lab, please do the following instructions:
 
 #### Email
 
-- Use {firstname}.{lastname}@kaist.ac.kr email account for all work emails. (**not cp.kaist.ac.kr !**)
+- Use {firstname}.{lastname}@kaist.ac.kr email account for all work emails. (**Not cp.kaist.ac.kr !**)
 - Forward all {firstname}.{lastname}@kaist.ac.kr emails to {firstname}.{lastname}@cp.kaist.ac.kr and
   check emails in [Gmail](https://www.gmail.com).
 - Configure the Gmail account to send from {firstname}.{lastname}@kaist.ac.kr.
     + Go to https://mail.kaist.ac.kr > Settings - enable **SMTP**.
     + Go to [Gmail](https://www.gmail.com) > Settings > Click **See all settings** > **Accounts** > Click **Add another email address** > Add {firstname}.{lastname}@kaist.ac.kr and set it as the default address > Set **Always reply from default address**
 
-- Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). (__important!__ do not markup emails.)
+- Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). (__Important!__ do not markup emails.)
 - Try to reply within 12 hours.
 
 
@@ -190,7 +190,7 @@ When you first come to the lab, please do the following instructions:
 
 #### After meeting
 
-- When every meeting is over, write action items in the corresponding Zulip topics (Team channels or DM).
+- When every meeting is over, write action items in the corresponding Zulip topics (Team streams or DM).
 
 - Guidelines for organizing action items.
 
