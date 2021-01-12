@@ -32,26 +32,26 @@ We have expertise on [Rust](https://www.rust-lang.org/), [Coq](https://coq.inria
 
 ### How to ask questions?
 
-- Please first search the web and the [issue tracker](https://github.com/kaist-cp/helpdesk/issues) and see if your question is already answered. 
+- Please first search the web and the [issue tracker](https://github.com/kaist-cp/helpdesk/issues) and see if your question is already answered.
   If not, ask your question in the issue tracker.
 - Please describe your question as detailed and organized as possible.
-- Don't ask the solutions to the exercises. 
-- Don't upload codes as images. 
-- Format your content using [GitHub's Markdown manual](https://guides.github.com/features/mastering-markdown/). 
+- Don't ask the solutions to the exercises.
+- Don't upload codes as images.
+- Format your content using [GitHub's Markdown manual](https://guides.github.com/features/mastering-markdown/).
 - Especially pay attention to properly formatting `code`.
 
 
 ### Please contribute to the community
 
-Your participation would be greatly appreciated. 
-Please watch this repository, and if there are some questions you can answer, please do so. 
+Your participation would be greatly appreciated.
+Please watch this repository, and if there are some questions you can answer, please do so.
 Your help will make the helpdesk much more scalable.
 
 
 
 ## Advice for potential lab members
 
-- If you're interested in joining the [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr) as a graduate or undergraduate student, 
+- If you're interested in joining the [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr) as a graduate or undergraduate student,
   please **CONTACT Jeehoon (`jeehoon.kang@kaist.ac.kr`) NOW**.  Don't wait for some events to happen.  Again, contact NOW.
   Otherwise, the opportunity may go to the other students.
 
@@ -103,6 +103,8 @@ Your help will make the helpdesk much more scalable.
   So if you're interested in joining this lab as a graduate student, please start working on one of
   them.
 
+  Also, I recommend new undergraduate student interns to work one
+
 
 
 ## Advice for lab members
@@ -120,7 +122,7 @@ a consequence, a researcher will suffer everyday from:
   frustration. If successful, from time to time you will be able to understand or design small
   things, which accumulate to a paper and a thesis.
 
-- **Plan changes**. You don't know what you're doing, so your goal will be changing as you make
+- **Changing plans**. You don't know what you're doing, so your goal will be changing as you make
   progress on your project. So any long-term plan is destined to be significantly revised. Thus you
   should think of the goal as a ever-moving target, the current version being just the best possible
   approximation of the actual end result. Your goal should be neither too concrete nor too abstract:
@@ -138,12 +140,11 @@ On the other hand, other uncertainty, such as unexplored design spaces, is the v
 To be productive, we need to keep the former to the minimum and control the latter to the appropriate amount.
 (The meaning of "the appropriate amount" constitutes a researcher's character; at first, please follow Jeehoon's taste.)
 
-So the goal of lab management aims to minimize the unnecessary uncertainty.
-To achieve this, this lab enforces a small number of rules on communication.
+To minimize the unnecessary uncertainty, this lab enforces a small number of rules on communication.
 Rules are good at minimizing confusions.
-For example, is it okay to mention someone in chatting applications during night time? 
-People have vastly different opinion on this, possibly confusing unnecessary tension among them, so we want to *define* whether it's acceptable or rude in a rule. 
-(FYI, we allow night-time mentions, but you don't need to react to them.)
+For example, is it okay to mention someone in chatting applications during night time?
+People have vastly different opinion on this, possibly causing unnecessary tension among them, so we want to *define* whether it's acceptable or rude in a rule.
+(FYI, we allow night-time mentions, but you're required to react to them only in work hours.)
 On the other hand, rules are hard to follow if there are so many.
 So we want to keep the number of rules as low as possible.
 
@@ -156,6 +157,7 @@ So we want to keep the number of rules as low as possible.
 - **Always, strongly prefer asynchronous communication**: the receiver is not required to reply promptly.
   If you can say something asynchronously, please do it so as early as possible.
   For example, you want Jeehoon to review your document, please send it to him as soon as you finish writing it. Don't wait for the meeting time to come.
+  Please address Jeehoon's comments as soon as possible, and when it's done, please notify him of the progress.
 
 - Even for asynchronous communication, try to reply within 12 hours.
 
@@ -163,18 +165,23 @@ So we want to keep the number of rules as low as possible.
   In the agenda, clearly state the purpose of meeting. It can be, but not limited to: (1) reporting the progress, (2) asking questions/opinions, or (3) just chatting.
   If you have multiple things to discuss, enumerate them at the beginning of a meeting for better planning of the meetings.
 
+    + If you don't send an agenda, the meeting is potentially going to be canceled.
+    + **If the meeting is to discuss a document, please send it at least by 12 hours before the meeting** so that the others can review it.
+      Share it anyway even if you couldn't finish writing the document by the time, because the others need to start making comments on it.
 
-#### Volume of communcation 
+
+#### Volume of communcation
 
 - **At 10am and 3pm everyday, please leave about five sentences to the [daily log](https://cp-chat.kaist.ac.kr/#narrow/stream/16-daily-log)** about what you'll do and what you've done for the day.
 
-- **Schedule at least one meeting for at least 15 minutes a week with Jeehoon**.
+- Schedule at least one meeting for at least 15 minutes a week with Jeehoon.
   It can be about anything such as research, coursework, TA...
 
 #### Reliability of communication
 
-- **Make sure that no feedbacks or action items get ignored.** 
-  For example, when you receive a feedback, address it or give a counterargument against it.
+- **Make sure that no feedbacks or action items get ignored.**
+  More concretely, when you receive a feedback, address it or give a counterargument against it.
+  When you're not capable of doing action items by their deadline, please say so as early as possible.
 
 - Right after every meeting, write down action items in the corresponding Zulip topics (Team stream or DM).
   Example:
@@ -184,11 +191,11 @@ So we want to keep the number of rules as low as possible.
         * issue #124 검토하겠습니다.
 
 - Don't say yes (or no) if you're not sure about this.
-  Don't say you understood something if you don't. 
+  Don't say you understood something if you don't.
   If there are some points that you do not understand clearly during the discussion, ask as soon as possible.
 
 - Don't be angry or grumpy when the discussion is getting hotter.
-  *Hot discussion* is absolutely necessary, but it's hot because different opinions are clashing.
+  *Hot discussion* is absolutely necessary for research and any other creative works, but it's hot because different opinions are clashing.
   It should not be hot because different emotions are clashing.
 
 - Cleary distinguish what you cannot agree on and what is not important.
@@ -196,15 +203,15 @@ So we want to keep the number of rules as low as possible.
 
 #### Organization for communication
 
-- Try to be direct, top-to-bottom, and conclusion-first (e.g., not "A, so B, so C", but "C, because B, because A").
+- **Try to be direct, top-to-bottom, and conclusion-first** (e.g., not "A, so B, so C", but "C, because B, because A").
 
-- Read how to write papers and give talks by [Dr. Derek Dreyer](https://people.mpi-sws.org/~dreyer/):
+- **Read how to write papers and give talks by [Dr. Derek Dreyer](https://people.mpi-sws.org/~dreyer/)**:
     + [How to write papers so people can read them](https://people.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf), PLMW@POPL 2016
     + [How to give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw18popl.pdf), PLMW@POPL 2018
     + [How to write papers and give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw17icfp.pdf), PLMW@ICFP 2017
 
 - When you summarize an existing paper or write a proposal for a new paper, organize your document using Derek's CGI model.
-  An example: https://docs.google.com/document/d/1W8coma11JFp0JIaVqFnZYkEa0sBkgZ1ijTSh6j8c_Gw/edit
+  An example: https://docs.google.com/document/d/1W8coma11JFp0JIaVqFnZYkEa0sBkgZ1ijTSh6j8c_Gw
 
 
 #### Tools for communication
@@ -219,10 +226,8 @@ When you first come to the lab, please do the following instructions:
 - Send your email address and GitHub ID to jeehoon.kang@kaist.ac.kr.
 - Your GitHub ID will be invited to `kaist-cp` organization.
 - You'll get {firstname}.{lastname}@cp.kaist.ac.kr Google Workspace account.
-- You'll get a Zulip account in
-  [https://cp-chat.kaist.ac.kr](https://cp-chat.kaist.ac.kr). Log in with your Google Workspace account.
-- Make sure you finish read this document, and send an email that says you did so to
-  `jeehoon.kang@kaist.ac.kr`.
+- You'll get a [Zulip](https://cp-chat.kaist.ac.kr) account. Log in with your Google Workspace account.
+- Make sure you finish read the entirety of this document and did all the action items, and DM Jeehoon in Zulip that you did so.
 
 ##### Zulip
 
@@ -233,31 +238,50 @@ When you first come to the lab, please do the following instructions:
 
 ##### Email
 
-- Use {firstname}.{lastname}@kaist.ac.kr email account for all work emails. (**Not cp.kaist.ac.kr !**)
-- Forward all {firstname}.{lastname}@kaist.ac.kr emails to {firstname}.{lastname}@cp.kaist.ac.kr and
-  check emails in [Gmail](https://www.gmail.com).
-- Configure the Gmail account to send from {firstname}.{lastname}@kaist.ac.kr.
+- Use `{firstname}.{lastname}@kaist.ac.kr` email account for all work emails (not `@cp.kaist.ac.kr`).
+- Forward all `{firstname}.{lastname}@kaist.ac.kr` emails to `{firstname}.{lastname}@cp.kaist.ac.kr` and check emails in [Gmail](https://www.gmail.com).
+- Configure the Gmail account to send from `{firstname}.{lastname}@kaist.ac.kr`.
     + Go to https://mail.kaist.ac.kr > Settings - enable **SMTP**.
-    + Go to [Gmail](https://www.gmail.com) > Settings > Click **See all settings** > **Accounts** > Click **Add another email address** > Add {firstname}.{lastname}@kaist.ac.kr and set it as the default address > Set **Always reply from default address**
+    + Go to [Gmail](https://www.gmail.com) > Settings > Click **See all settings** > **Accounts** > Click **Add another email address** > Add `{firstname}.{lastname}@kaist.ac.kr` and set it as the default address > Set **Always reply from default address**
 
 - Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). Do not markup emails.
 
 ##### Calendar
 
-- Use {firstname}.{lastname}@cp.kaist.ac.kr account for calendar and other Google Workspace applications.
-- If you want to have a meeting, just directly invite the others in [Google
-  Calendar](https://calendar.google.com). In the invitation, write the purpose of the meeting.
+- Use `{firstname}.{lastname}@cp.kaist.ac.kr` account for calendar and other Google Workspace applications.
+- If you want to have a meeting, just directly invite the others in [Google Calendar](https://calendar.google.com). In the invitation, write the meeting agenda as described above.
+
+##### Google Drive, Docs, Spreadsheet, slide
+
+- Put all project-related files to Google Drive.
+- Write docs/spreadsheet documents and make slides using Google's tools.
 
 ##### GitHub
 
 - All work should be done in the [`kaist-cp` organization](https://github.com/kaist-cp).
 - Please write your name in your public profile (Settings > Profile > Name).
 - If you want to create a new repository, ask Jeehoon.
-- Get email notification for mentions and issue/PR comments.
+- Configure notifications for mentions and issue/PR comments.
+  It is usually configured in Zulip, but if not, please get email notification for them.
+
+##### Website
+
+Create and maintain your website at `https://cp.kaist.ac.kr/{firstname}.{lastname}`.
+
+- Fork [the website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
+- Install dependent libraries and run a local server to test by following commands:
+      ```bash
+      # Make sure Ruby is installed.
+      $ bundle install
+      $ bundle exec jekyll serve
+      ```
+- Add your meta information(name, status, github ID, etc.) to `people.yml`.
+- Make a new file `{firstname}.{lastname}.md` under the directory `_people/`.
+- Write your concrete information on the `{firstname}.{lastname}.md`. I recommend you refer to `_people/jeehoon.kang.md`.
+- Make a commit, push it and PR.
 
 
-
-### First thigns to do
+### Equipment and
 
 - Use the following devices (**IMPORTANT: no password should be written here. It's a public repository.**):
 
@@ -313,20 +337,5 @@ When you first come to the lab, please do the following instructions:
 -->
 
 
-- Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
-  - Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
-  - Install dependent libraries and run a local server to test by following commands:
-        ```bash
-        # Make sure Ruby is installed.
-        $ bundle install
-        $ bundle exec jekyll serve
-        ```
-  + Add your meta information(name, status, github ID, etc.) to `people.yml`.
-  + Make a new file `{firstname}.{lastname}.md` under the directory `_people/`.
-  + Write your concrete information on the `{firstname}.{lastname}.md`. I recommend you refer to `_people/jeehoon.kang.md`.
-  + Make a commit, push it and PR.
 
 - Make sure you know how to use Git. FYI, [this tutorial](https://www.atlassian.com/git/tutorials) is a good introduction.
-
-- Study [Rust](https://www.rust-lang.org/) or [Coq](https://coq.inria.fr/) depending on your
-  research interest. See https://github.com/kaist-cp/helpdesk/#specialty for more details.
