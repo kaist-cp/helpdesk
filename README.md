@@ -112,7 +112,7 @@ receiver is requested to reply promptly.
 #### Minimum required communication with Jeehoon
 
 - At 10am and 3pm everyday, please leave about five sentences to the
-  [daily log](https://gg.kaist.ac.kr/#narrow/stream/16-daily-log) Zulip stream about
+  [daily log](https://cp-chat.kaist.ac.kr/#narrow/stream/16-daily-log) Zulip stream about
   what you'll do and what you've done for the day.
 - We strongly prefer asynchronous communication. Don't wait for meetings. Send your message ASAP.
 - Schedule at least one meeting for at least 15 minutes a week with Jeehoon. It can be about
@@ -130,7 +130,7 @@ When you first come to the lab, please do the following instructions:
 - Your GitHub ID will be invited to `kaist-cp` organization.
 - You'll get {firstname}.{lastname}@cp.kaist.ac.kr Google Workspace account.
 - You'll get a Zulip account in
-  [https://gg.kaist.ac.kr](https://gg.kaist.ac.kr). Log in with your Google Workspace account.
+  [https://cp-chat.kaist.ac.kr](https://cp-chat.kaist.ac.kr). Log in with your Google Workspace account.
 - Make sure you finish read this document, and send an email that says you did so to
   `jeehoon.kang@kaist.ac.kr`.
 
@@ -165,9 +165,9 @@ When you first come to the lab, please do the following instructions:
 
 #### Zulip
 
-- Instant messaging service at https://gg.kaist.ac.kr.
+- Instant messaging service at https://cp-chat.kaist.ac.kr.
 - Try to reply promptly (at most by 15 minutes) in work hours. (No need to reply in other times.)
-- At the beginning of each work day, briefly state what you'll do that day at the [daily log](https://gg.kaist.ac.kr/#narrow/stream/16-daily-log).
+- At the beginning of each work day, briefly state what you'll do that day at the [daily log](https://cp-chat.kaist.ac.kr/#narrow/stream/16-daily-log).
 
 
 #### Face-to-face meeting
