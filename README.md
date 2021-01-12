@@ -183,7 +183,10 @@ So we want to keep the number of rules as low as possible.
   More concretely, when you receive a feedback, address it or give a counterargument against it.
   When you're not capable of doing action items by their deadline, please say so as early as possible.
 
-- Right after every meeting, write down action items in the corresponding Zulip topics (Team stream or DM).
+    + If you're reliable on this, the others can depend on you to get things done.
+      If you're unreliable and you miss feedbacks or action items, the others also need to track them, which causes great management cost.
+
+- **Right after every meeting, write down and share action items** in the corresponding Zulip topics (Team stream or DM).
   Example:
 
         * pr #131 적정 단계에서 끊어서 마무리하겠습니다.
@@ -201,7 +204,7 @@ So we want to keep the number of rules as low as possible.
 - Cleary distinguish what you cannot agree on and what is not important.
   Even if you don't agree with an argument, please faithfully treat and document it (esp. that you don't agree with it).
 
-#### Organization for communication
+#### Writing and speaking skills for communication
 
 - **Try to be direct, top-to-bottom, and conclusion-first** (e.g., not "A, so B, so C", but "C, because B, because A").
 
