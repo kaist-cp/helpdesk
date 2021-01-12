@@ -1,13 +1,19 @@
 # Helpdesk @ Concurrency and Parallelism Laboratory
 
-Here is the helpdesk of the [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr) at
-KAIST School of Computing. We will try to answer your questions as far as we can!
+Here is the helpdesk of the [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr) at [KAIST School of Computing](https://cs.kaist.ac.kr).
+We will try to answer your questions as far as we can!
 
 
-## Specialty
 
-We have expertise on [Rust](https://www.rust-lang.org/), [Coq](https://coq.inria.fr/), and
-concurrent programming.
+## Questions and Answers
+
+If you have a question, please ask in [this repository's issue tracker](https://github.com/kaist-cp/helpdesk/issues).
+Please ask questions on computing in general, laboratory, or anything you want to ask.
+We will try to answer your questions as detailed as possible.
+
+### Areas of expertise
+
+We have expertise on [Rust](https://www.rust-lang.org/), [Coq](https://coq.inria.fr/) and formal verification, compiler, and concurrent programming.
 
 - To study [Rust](https://www.rust-lang.org/), we strongly recommend you to start with ["the
   book"](https://doc.rust-lang.org/book/). The entire book is worth reading. Read the book,
@@ -19,64 +25,84 @@ concurrent programming.
   (too many) exercises---they are the essence of the book. You can learn how to install Coq and
   setup your IDE [here](coq/README.md).
 
-- To study concurrent programming, we strongly recommend you to take [KAIST CS492: Concurrent
-  Programming](https://github.com/kaist-cp/cs492-concur).
+- To study compiler, we strongly recommend you to take [KAIST CS420: Compiler Design](https://github.com/kaist-cp/cs420).
+
+- To study concurrent programming, we strongly recommend you to take [KAIST CS492: Concurrent Programming](https://github.com/kaist-cp/cs492-concur).
 
 
-## How to ask questions?
+### How to ask questions?
 
-Please search for the [issue tracker](https://github.com/kaist-cp/helpdesk/issues) and see if your
-question is already answered. If not, ask your question in the issue tracker.
+- Please first search the web and the [issue tracker](https://github.com/kaist-cp/helpdesk/issues) and see if your question is already answered. 
+  If not, ask your question in the issue tracker.
+- Please describe your question as detailed and organized as possible.
+- Don't ask the solutions to the exercises. 
+- Don't upload codes as images. 
+- Format your content using [GitHub's Markdown manual](https://guides.github.com/features/mastering-markdown/). 
+- Especially pay attention to properly formatting `code`.
 
-The content should be clear enough so that we can easily help you. Don't ask the solutions to the
-exercises. Don't upload images of codes. Format your content using [GitHub's Markdown
-manual](https://guides.github.com/features/mastering-markdown/). Especially pay attention to
-properly formatting `code`.
 
+### Please contribute to the community
 
-## Please contribute to the community
+Your participation would be greatly appreciated. 
+Please watch this repository, and if there are some questions you can answer, please do so. 
+Your help will make the helpdesk much more scalable.
 
-Your participation would be greatly appreciated. Please watch this repository, and if there are some
-questions you can answer, please do so. Your help will make the helpdesk much more scalable.
 
 
 ## Advice for potential lab members
 
-- If you're interested in joining this lab as a graduate or undergraduate student, please **CONTACT
-  `jeehoon.kang@kaist.ac.kr` NOW**.  Don't wait for some events to happen.  Again, contact NOW.
-  Otherwise, it may be possible that the opportunity goes to the other students.
+- If you're interested in joining the [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr) as a graduate or undergraduate student, 
+  please **CONTACT Jeehoon (`jeehoon.kang@kaist.ac.kr`) NOW**.  Don't wait for some events to happen.  Again, contact NOW.
+  Otherwise, the opportunity may go to the other students.
 
-- When you contact me, I'll usually reply to you with the following message:
+- When you contact Jeehoon, he will ask you to introduce yourself.
+  The introduction should at least contain:
+
+    + The most interesting experience (computing wise) you've experienced in the past.
+      It can be about course projects, research or industry experience, or anything related to computing.
+      Please prepare for a [Google Docs](https://docs.google.com) document that clearly describes the experience.
+      Please give the document's comment access to `jeehoon.kang@cp.kaist.ac.kr`.
+
+    + What you want to do in the lab.
+      Please read the [lab website](https://cp.kaist.ac.kr) and study what's going on in this lab,
+      and write down your plan as a Google Docs document.
+      Please give the document's comment access to `jeehoon.kang@cp.kaist.ac.kr`.
+
+    + When you and Jeehoon can meet for 30 minutes online.
+      Please look at [Jeehoon's calendar](https://cp.kaist.ac.kr/jeehoon.kang#calendar) for his schedule.
+
+- After sending an email to Jeehoon, please carefully read the entirety of this document.
+  You also need to do all the action items, e.g., watching Derek's talks (see below).
+  Make sure you finish doing so before joining this lab. Please let Jeehoon know about your progress.
+
+- If your email does not contain the above information, Jeehoon will reply to you with the following message:
 
   > 안녕하세요, 강지훈입니다.
   >
   > 먼저 연구실에 관심 가져주셔서 감사합니다.
   >
-  > 혹시 관련하여 30분 정도 온라인으로 미팅할 수 있으면 좋겠습니다.  Google calendar로 비는 시간에 요청해주시면 감사하겠습니다.  제 일정은 다음과 같습니다: https://cp.kaist.ac.kr/jeehoon.kang/#calendar
-  >
-  > 미팅에선 두가지를 중점적으로 제게 말씀해주시면 좋겠습니다.  (1) 지금까지 했던 작업중에 제일 기억에 남고 소개해주실만한 것을 하나 골라 자세히 말씀해주시길 바랍니다.  수업 프로젝트여도 좋고, 인턴한 경험도 좋고, 테크니컬한 것 아무거나 좋습니다.  (2) 앞으로 하고싶은 일에 대해 보다 자세히 말씀해주시길 부탁드립니다.
-  >
-  > 해주실 말씀을 미리 정리하여 미팅 전에 제게 이메일로 보내주세요.  이메일로 최대한 이야기 많이 나눈 후에 온라인으로 만나서 더 효율적으로 이야기할 수 있으면 좋겠습니다.
+  > 다음을 읽어주세요: https://github.com/kaist-cp/helpdesk/#advice-for-potential-lab-members
   >
   > 감사합니다.
   > 강지훈 드림
 
-- You can skip the above procedure by directly sending me an email that says (1) what you did; (2)
-  what you'll do; and (3) when you and I are both available.
+- Jeehoon will leave a few comments to your documents.
+  Please address them or give counterarguments against them.
 
-- I require all new graduate students to finish at least one of the followings before joining the
-  lab:
+- I require all new graduate students to finish at least one of the followings before joining the lab:
+
     + Homework assignments of [KAIST CS420: Compiler Design](https://github.com/kaist-cp/cs420).
-      Lecture videos are uploaded to YouTube, and you can ask questions in the course repository's
-      issue tracker.
-    + Homework assignments of [KAIST CS492: Concurrent
-      Programming](https://github.com/kaist-cp/cs492-concur).  Lecture videos are uploaded to
-      YouTube, and you can ask questions in the course repository's issue tracker.
-    + [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volumes 1 and 2.  You can
-      ask questions in this repository's issue tracker.
+      Lecture videos are uploaded to YouTube, and you can ask questions in the course repository's issue tracker.
+
+    + Homework assignments of [KAIST CS492: Concurrent Programming](https://github.com/kaist-cp/cs492-concur).
+      Lecture videos are uploaded to YouTube, and you can ask questions in the course repository's issue tracker.
+
+    + [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volumes 1 and 2.
+      You can ask questions in this repository's issue tracker.
 
   So if you're interested in joining this lab as a graduate student, please start working on one of
   them.
+
 
 
 ## Advice for lab members
@@ -87,14 +113,14 @@ questions you can answer, please do so. Your help will make the helpdesk much mo
 
 The defining characteristic of research is everything---from motivation to methods to evaluation to
 goal---is tentative: in the middle of doing research, you don't know what will be the end result. As
-a consequence, a researcher will suffer from:
+a consequence, a researcher will suffer everyday from:
 
-- **Failure everyday**. You don't know what you're doing, so you'll fail almost always. To deal with
+- **Failures**. You don't know what you're doing, so you'll fail almost always. To deal with
   the frustration from such failures, you should be mentally tough enough to tolerate such
   frustration. If successful, from time to time you will be able to understand or design small
   things, which accumulate to a paper and a thesis.
 
-- **Changing plans**. You don't know what you're doing, so your goal will be changing as you make
+- **Plan changes**. You don't know what you're doing, so your goal will be changing as you make
   progress on your project. So any long-term plan is destined to be significantly revised. Thus you
   should think of the goal as a ever-moving target, the current version being just the best possible
   approximation of the actual end result. Your goal should be neither too concrete nor too abstract:
@@ -102,24 +128,88 @@ a consequence, a researcher will suffer from:
   research.
 
 
+
+### Management Principles
+
+To get things done despite the fundamental uncertainty of research, this lab (ironically) aims to keep tangential uncertainty to the minimum.
+All uncertainty are not created equal.
+Some uncertainty, such as confusion on schedule or communication, is not beneficial for productivity.
+On the other hand, other uncertainty, such as unexplored design spaces, is the very definition of research.
+To be productive, we need to keep the former to the minimum and control the latter to the appropriate amount.
+(The meaning of "the appropriate amount" constitutes a researcher's character; at first, please follow Jeehoon's taste.)
+
+So the goal of lab management aims to minimize the unnecessary uncertainty.
+To achieve this, this lab enforces a small number of rules on communication.
+Rules are good at minimizing confusions.
+For example, is it okay to mention someone in chatting applications during night time? 
+People have vastly different opinion on this, possibly confusing unnecessary tension among them, so we want to *define* whether it's acceptable or rude in a rule. 
+(FYI, we allow night-time mentions, but you don't need to react to them.)
+On the other hand, rules are hard to follow if there are so many.
+So we want to keep the number of rules as low as possible.
+
+
+
 ### Communication
 
-All communication (except for Zulip and face-to-face meeting) is **asynchronous**: the receiver
-is not required to reply promptly. Zulip chat in work hours is supposed to be synchronous: the
-receiver is requested to reply promptly.
+#### Mode of communication
+
+- **Always, strongly prefer asynchronous communication**: the receiver is not required to reply promptly.
+  If you can say something asynchronously, please do it so as early as possible.
+  For example, you want Jeehoon to review your document, please send it to him as soon as you finish writing it. Don't wait for the meeting time to come.
+
+- Even for asynchronous communication, try to reply within 12 hours.
+
+- Before asking for a synchronous meeting (face-to-face or online), write down a meeting agenda and share it.
+  In the agenda, clearly state the purpose of meeting. It can be, but not limited to: (1) reporting the progress, (2) asking questions/opinions, or (3) just chatting.
+  If you have multiple things to discuss, enumerate them at the beginning of a meeting for better planning of the meetings.
 
 
-#### Minimum required communication with Jeehoon
+#### Volume of communcation 
 
-- At 10am and 3pm everyday, please leave about five sentences to the
-  [daily log](https://cp-chat.kaist.ac.kr/#narrow/stream/16-daily-log) Zulip stream about
-  what you'll do and what you've done for the day.
-- We strongly prefer asynchronous communication. Don't wait for meetings. Send your message ASAP.
-- Schedule at least one meeting for at least 15 minutes a week with Jeehoon. It can be about
-  anything such as research, coursework, TA...
+- **At 10am and 3pm everyday, please leave about five sentences to the [daily log](https://cp-chat.kaist.ac.kr/#narrow/stream/16-daily-log)** about what you'll do and what you've done for the day.
+
+- **Schedule at least one meeting for at least 15 minutes a week with Jeehoon**.
+  It can be about anything such as research, coursework, TA...
+
+#### Reliability of communication
+
+- **Make sure that no feedbacks or action items get ignored.** 
+  For example, when you receive a feedback, address it or give a counterargument against it.
+
+- Right after every meeting, write down action items in the corresponding Zulip topics (Team stream or DM).
+  Example:
+
+        * pr #131 적정 단계에서 끊어서 마무리하겠습니다.
+        * XX에 대해 정리하여 공유하겠습니다.
+        * issue #124 검토하겠습니다.
+
+- Don't say yes (or no) if you're not sure about this.
+  Don't say you understood something if you don't. 
+  If there are some points that you do not understand clearly during the discussion, ask as soon as possible.
+
+- Don't be angry or grumpy when the discussion is getting hotter.
+  *Hot discussion* is absolutely necessary, but it's hot because different opinions are clashing.
+  It should not be hot because different emotions are clashing.
+
+- Cleary distinguish what you cannot agree on and what is not important.
+  Even if you don't agree with an argument, please faithfully treat and document it (esp. that you don't agree with it).
+
+#### Organization for communication
+
+- Try to be direct, top-to-bottom, and conclusion-first (e.g., not "A, so B, so C", but "C, because B, because A").
+
+- Read how to write papers and give talks by [Dr. Derek Dreyer](https://people.mpi-sws.org/~dreyer/):
+    + [How to write papers so people can read them](https://people.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf), PLMW@POPL 2016
+    + [How to give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw18popl.pdf), PLMW@POPL 2018
+    + [How to write papers and give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw17icfp.pdf), PLMW@ICFP 2017
+
+- When you summarize an existing paper or write a proposal for a new paper, organize your document using Derek's CGI model.
+  An example: https://docs.google.com/document/d/1W8coma11JFp0JIaVqFnZYkEa0sBkgZ1ijTSh6j8c_Gw/edit
 
 
-#### Registration
+#### Tools for communication
+
+##### Registration
 
 When you first come to the lab, please do the following instructions:
 
@@ -134,8 +224,14 @@ When you first come to the lab, please do the following instructions:
 - Make sure you finish read this document, and send an email that says you did so to
   `jeehoon.kang@kaist.ac.kr`.
 
+##### Zulip
 
-#### Email
+- Instant messaging service at https://cp-chat.kaist.ac.kr.
+
+- Zulip is also asynchronous by default, but it is semi-synchronous in work hours.
+  Try to reply promptly (at most by 15 minutes) in work hours. (No need to even reply in other times.)
+
+##### Email
 
 - Use {firstname}.{lastname}@kaist.ac.kr email account for all work emails. (**Not cp.kaist.ac.kr !**)
 - Forward all {firstname}.{lastname}@kaist.ac.kr emails to {firstname}.{lastname}@cp.kaist.ac.kr and
@@ -144,18 +240,15 @@ When you first come to the lab, please do the following instructions:
     + Go to https://mail.kaist.ac.kr > Settings - enable **SMTP**.
     + Go to [Gmail](https://www.gmail.com) > Settings > Click **See all settings** > **Accounts** > Click **Add another email address** > Add {firstname}.{lastname}@kaist.ac.kr and set it as the default address > Set **Always reply from default address**
 
-- Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). (__Important!__ do not markup emails.)
-- Try to reply within 12 hours.
+- Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). Do not markup emails.
 
-
-#### Calendar
+##### Calendar
 
 - Use {firstname}.{lastname}@cp.kaist.ac.kr account for calendar and other Google Workspace applications.
 - If you want to have a meeting, just directly invite the others in [Google
   Calendar](https://calendar.google.com). In the invitation, write the purpose of the meeting.
 
-
-#### GitHub
+##### GitHub
 
 - All work should be done in the [`kaist-cp` organization](https://github.com/kaist-cp).
 - Please write your name in your public profile (Settings > Profile > Name).
@@ -163,66 +256,8 @@ When you first come to the lab, please do the following instructions:
 - Get email notification for mentions and issue/PR comments.
 
 
-#### Zulip
 
-- Instant messaging service at https://cp-chat.kaist.ac.kr.
-- Try to reply promptly (at most by 15 minutes) in work hours. (No need to reply in other times.)
-- At the beginning of each work day, briefly state what you'll do that day at the [daily log](https://cp-chat.kaist.ac.kr/#narrow/stream/16-daily-log).
-
-
-#### Face-to-face meeting
-
-- Before asking for a meeting, write down a meeting agenda and share it.
-
-- In the agenda, clearly state the purpose of meeting.  It can be, but not limited to: (1) reporting
-  the progress, (2) asking questions/opinions, or (3) just chatting.
-
-- Try to be direct, top-to-bottom, and conclusion-first (e.g., not "A, so B, so C", but "C, because
-  B, because A").
-
-- If you have multiple things to discuss, enumerate them at the beginning of a meeting for better
-  planning of the meetings.
-
-- For offline meetings at Jeehoon's office (Rm. 4433, Bldg. E3-1), if you have files that are needed
-  during the meeting, share them with both `jeehoon.kang@cp.kaist.ac.kr` and `kiosk@cp.kaist.ac.kr`
-  before the meeting.
-
-
-#### After meeting
-
-- When every meeting is over, write action items in the corresponding Zulip topics (Team streams or DM).
-
-- Guidelines for organizing action items.
-
-    + Title: Date(YYYY-MM-DD) Name(or team) Action items.
-
-        * Action item 1
-
-        * Action item 2
-
-        * ... and so on.
-
-- Example.
-
-    + 2020-11-25 김시원(rv6) Action items.
-
-        * pr #131 적정 단계에서 끊어서 마무리하겠습니다.
-
-        * XX에 대해 정리하여 공유하겠습니다.
-
-        * issue #124 검토하겠습니다.
-
-
-#### Tips for productive discussion
-
-- If there are some points that you do not understand clearly during the discussion, ask as soon as possible.
-
-- Even if some points don't seem important to you, it is worth documenting it.
-
-- If you receive a feedback, address it or give a counterargument against it. Make sure that no feedback gets ignored.
-
-
-### First things to do
+### First thigns to do
 
 - Use the following devices (**IMPORTANT: no password should be written here. It's a public repository.**):
 
@@ -292,11 +327,6 @@ When you first come to the lab, please do the following instructions:
   + Make a commit, push it and PR.
 
 - Make sure you know how to use Git. FYI, [this tutorial](https://www.atlassian.com/git/tutorials) is a good introduction.
-
-- Read how to read papers and give talks by [Dr. Derek Dreyer](https://people.mpi-sws.org/~dreyer/):
-  + [How to write papers so people can read them](https://people.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf), PLMW@POPL 2016
-  + [How to give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw18popl.pdf), PLMW@POPL 2018
-  + [How to write papers and give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw17icfp.pdf), PLMW@ICFP 2017
 
 - Study [Rust](https://www.rust-lang.org/) or [Coq](https://coq.inria.fr/) depending on your
   research interest. See https://github.com/kaist-cp/helpdesk/#specialty for more details.
