@@ -170,7 +170,7 @@ So we want to keep the number of rules as low as possible.
       Share it anyway even if you couldn't finish writing the document by the time, because the others need to start making comments on it.
 
 
-#### Volume of communcation
+#### Volume of communication
 
 - **At 10am and 3pm everyday, please leave about five sentences to the [daily log](https://cp-chat.kaist.ac.kr/#narrow/stream/16-daily-log)** about what you'll do and what you've done for the day.
 
