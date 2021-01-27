@@ -103,7 +103,7 @@ Your help will make the helpdesk much more scalable.
   So if you're interested in joining this lab as a graduate student, please start working on one of
   them.
 
-  Also, I recommend new undergraduate student interns to work one
+  Also, I recommend new undergraduate student interns to work on one of them, too.
 
 
 
