@@ -284,7 +284,7 @@ Create and maintain your website at `https://cp.kaist.ac.kr/{firstname}.{lastnam
 - Make a commit, push it and PR.
 
 
-### Equipment and
+### Equipment and Tutorials
 
 - Use the following devices (**IMPORTANT: no password should be written here. It's a public repository.**):
 
