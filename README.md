@@ -72,7 +72,7 @@ Your help will make the helpdesk much more scalable.
       Please look at [Jeehoon's calendar](https://cp.kaist.ac.kr/jeehoon.kang#calendar) for his schedule.
 
 - After sending an email to Jeehoon, please carefully read the entirety of this document.
-  You also need to do all the action items, e.g., watching Derek's talks (see below).
+  You also need to do all the action items, e.g., watching Derek's talks (see below) or learning development tools.
   Make sure you finish doing so before joining this lab. Please let Jeehoon know about your progress.
 
 - If your email does not contain the above information, Jeehoon will reply to you with the following message:
@@ -284,6 +284,16 @@ Create and maintain your website at `https://cp.kaist.ac.kr/{firstname}.{lastnam
 - Make a commit, push it and PR.
 
 
+
+### Development Tools
+
+Before joining the lab, you should become familiar with a few development tools.
+
+- Learn Vim, Emacs, or VSCode. (FYI, the winner of the editor war: vim vs emacs is vs(code).)
+- Learn Git. FYI, [this tutorial](https://www.atlassian.com/git/tutorials) is a good introduction.
+- Learn the other development tools introduced in [this course](https://missing.csail.mit.edu/) ([Korean translation](https://missing-semester-kr.github.io/)), except for "Editors (Vim)".
+
+
 ### Equipment and Tutorials
 
 - Use the following devices (**IMPORTANT: no password should be written here. It's a public repository.**):
@@ -338,7 +348,3 @@ Create and maintain your website at `https://cp.kaist.ac.kr/{firstname}.{lastnam
             1. Run `virt-manager`. If it's not installed, run `/usr/bin/install-packages`. If you get "Unable to connect to libvirt" error, reboot the desktop.
             1. To create a new virtual machine, right-click "QEMU/KVM" and click "NEW". Please note that you can choose your ISO image by clicking "Browse..." and "Browse Local" in "Step 2 of 5".
 -->
-
-
-
-- Make sure you know how to use Git. FYI, [this tutorial](https://www.atlassian.com/git/tutorials) is a good introduction.
