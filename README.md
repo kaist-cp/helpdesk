@@ -302,6 +302,30 @@ Before joining the lab, you should become familiar with a few development tools.
 
     + Printer: `HP Color LaserJet Pro MFP M479fdw`; `10.12.255.2` in the WiFi network; AirPrint protocol
 
+        * Scanning to a network folder on Ubuntu
+            1. Make sure that your computer is in the lab local network.
+            1. Creating a local network shared folder
+                1. Create an empty directory.
+                1. On nautilus, right-click and select Local Network Share. This will ask you to install a package called "samba" or something. Install it.
+                1. Enter "Share name" e.g. `scan`.
+                1. Check both "Allow others to create ..." and "Guest access ...".
+                1. Run these commands:
+                    ```
+                    sudo ufw allow samba
+                    sudo smbpasswd -a $USERNAME
+                    ```
+                1. Run this to check if it's configured correctly:
+                    ```
+                    YOUR_LOCAL_IP_ADDRESS=$(hostname -I | awk '{print $1}')
+                    nautilus smb://$YOUR_LOCAL_IP_ADDRESS/scan
+                    ```
+            1. Configuring the scanner
+                1. Enter the printer's IP address in the web browser.
+                1. Scan > Scan to Network Folder > Quick Sets > +
+                1. Fill in the form and click "Next".
+                1. Set "Network Path" to `\\$YOUR_LOCAL_IP_ADDRESS\scan`, check "Use credentials of the user ...", then click "Apply"
+            1. In the printer's control panel: Scan > Network folder > select the configuration you made in the previous step.
+
     + Server: `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
 
         * port: 11001, 11005, password: \<google-workspace-password\>
