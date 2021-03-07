@@ -326,9 +326,9 @@ Before joining the lab, you should become familiar with a few development tools.
                 1. Set "Network Path" to `\\$YOUR_LOCAL_IP_ADDRESS\scan`, check "Use credentials of the user ...", then click "Apply"
             1. In the printer's control panel: Scan > Network folder > select the configuration you made in the previous step.
 
-    + Server: `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
+    + Server (Ubuntu): `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
 
-        * port: 11001, 11005, password: \<google-workspace-password\>
+        * port: 11001, password: \<google-workspace-password\>
 
         * `/kaist-cp-home/<google-workspace-id>` is the home directory, but it's network-mounted.
           Run `sudo kaist-cp-refresh.sh`, then you'll have `/local-home/<google-workspace-id>` in the local SSD.
@@ -336,6 +336,16 @@ Before joining the lab, you should become familiar with a few development tools.
         * If you want to install additional packages, make a PR to [this
           repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox-20.04), and after the
           PR is merged, run `sudo kaist-cp-refresh.sh`.
+
+    + Remote desktop (Xubuntu): `cp-service.kaist.ac.kr:12001`
+
+        * Protocol: RDP (security: TLSv1.2, TLSv1.3)
+
+        * Client: [Microsoft clients](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients), [Remmina](https://remmina.org/)
+
+        * Credential: google workspace id/password
+
+        <!-- * SSH: `ssh -p14001 <google-workspace-id>@cp-service.kaist.ac.kr` -->
 
     + Desktop: We encourage you to install the latest Ubuntu.
 
